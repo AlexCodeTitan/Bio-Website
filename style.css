@@ -14,6 +14,8 @@
 @media screen and (max-width:2000px) {
     .profile-pic{
         width: 48vw;
+        height: 100vh;
+        object-fit: cover;
     }
     .background-line{
         left: 48vw;
@@ -23,6 +25,8 @@
 @media screen and (max-width:1300px) {
     .profile-pic{
         width: 65vw;
+        height: 100vh;
+        object-fit: cover;
     }
     .background-line{
         left: 65vw;
@@ -32,6 +36,8 @@
 @media screen and (max-width: 986px) {
     .profile-pic{
         width: 100vw;
+        height: 100vh;
+        object-fit: cover;
     }
     .background-line{
         visibility: hidden;
@@ -41,9 +47,9 @@
 
 @media screen and (max-width: 640px) {
     .profile-pic{
-        object-fit: cover;
         width: auto;
         height: 100vh;
+        object-fit: cover;
     }
     .background-line{
         visibility: hidden;
