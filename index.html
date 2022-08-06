@@ -28,7 +28,7 @@
         <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggler="collapse"
+          data-bs-toggle="collapse"
           data-bs-target="#navbarMain"
         >
           <span class="navbar-toggler-icon"></span>
@@ -39,7 +39,7 @@
               <a
                 href=""
                 class="nav-link active"
-                data-bs-toggler="collapse"
+                data-bs-toggle="collapse"
                 data-bs-target="multi-collapse"
                 aria-expanded="false"
                 aria-controls="about contact"
@@ -51,7 +51,7 @@
                 href="#about"
                 role="button"
                 class="nav-link"
-                data-bs-toggler="collapse"
+                data-bs-toggle="collapse"
                 aria-expanded="false"
                 aria-controls="about"
                 >About</a
@@ -62,7 +62,7 @@
                 href="#contact"
                 role="button"
                 class="nav-link"
-                data-bs-toggler="collapse"
+                data-bs-toggle="collapse"
                 aria-expanded="false"
                 aria-controls="contact"
                 >Contact</a
@@ -73,8 +73,37 @@
       </div>
     </nav>
     <!-- HEADER -->
-    <!-- HEADER > Portofolio & Email Btn Group -->
-    <!-- HEADER > About & Contact dropdown content -->
+    <header class="container fixed-top text-end mt-5">
+      <h1 class="display-1">
+        Hi. I am <span class="badge bg-secondary">Alexandru</span>
+      </h1>
+      <h2 class="display-3">Web developer</h2>
+      <!-- HEADER > Portofolio & Email Btn Group -->
+      <div class="btn-group">
+        <!-- Profile Btn -->
+        <button
+          class="btn btn-outline-danger text-uppercase"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#portofolio"
+          aria-controls="portofolio"
+        >
+          my portofolio
+        </button>
+        <!-- Email Btn -->
+        <button
+          class="btn btn-danger text-uppercase"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#email"
+          aria-controls="email"
+        >
+          <i class="bi bi-envelope-open"></i>
+        </button>
+      </div>
+      <!-- HEADER > About & Contact dropdown content -->
+    </header>
+
     <!-- PROFILE IMG -->
     <!-- PORTOFOLIO OFFCANVAS CONTENT -->
     <!-- EMAIL OFFCANVAS CONTENT -->
