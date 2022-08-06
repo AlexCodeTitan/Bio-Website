@@ -16,6 +16,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
     <title>My Bio</title>
   </head>
   <body class="vh-100 bg-dark text-light">
@@ -40,7 +42,7 @@
                 href=""
                 class="nav-link active"
                 data-bs-toggle="collapse"
-                data-bs-target="multi-collapse"
+                data-bs-target=".multi-collapse"
                 aria-expanded="false"
                 aria-controls="about contact"
                 >Info</a
@@ -102,6 +104,54 @@
         </button>
       </div>
       <!-- HEADER > About & Contact dropdown content -->
+      <div class="row mt-3">
+        <!-- About -->
+        <div class="col-md-6 mt-3">
+          <div class="collapse multi-collapse" id="about">
+            <div class="card card-body text-start shadow bg-dark-transparent">
+              <h5 class="card-title text-danger">About</h5>
+              <div class="card-text">
+                <h3 class="text-white-50 ms-3">Alexandru AA</h3>
+                <ul class="list-unstyled ms-5">
+                  <li>CEO of A&A Media</li>
+                  <li>Front End Web Developer</li>
+                  <li>Course Teacher</li>
+                  <li>Youtube Content Visualizer</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Contact -->
+        <div class="col-md-6 mt-3">
+          <div class="collapse multi-collapse" id="contact">
+            <div class="card card-body text-start shadow bg-dark-transparent">
+              <h5 class="card-title text-danger">Contact</h5>
+              <div class="card-text">
+                <h3 class="text-white-50 ms-3">Get in touch:</h3>
+                <ul class="list-unstyled ms-5">
+                  <li>
+                    <i class="bi bi-house me-2 text-danger"></i>
+                    City: Iasi
+                  </li>
+                  <li>
+                    <i class="bi bi-signpost me-2 text-danger"></i>Street: Luca
+                    Arbore
+                  </li>
+                  <li>
+                    <i class="bi bi-telephone me-2 text-danger"></i>Phone:
+                    0757299313
+                  </li>
+                  <li>
+                    <i class="bi bi-envelope me-2 text-danger"></i>Email:
+                    aandoneseialex@gmail.com
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- PROFILE IMG -->
